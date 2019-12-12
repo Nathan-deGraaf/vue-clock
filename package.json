@@ -1,0 +1,27 @@
+{
+  "name": "vue-clock",
+  "version": "1.0.0",
+  "description": "vue clock",
+  "main": "app.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.vue",
+    "sass": "gulp sass:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nathan-deGraaf/vue-clock.git"
+  },
+  "author": "Nathan deGraaf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nathan-deGraaf/vue-clock/issues"
+  },
+  "homepage": "https://github.com/Nathan-deGraaf/vue-clock#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.0",
+    "vue": "^2.6.10"
+  }
+}
