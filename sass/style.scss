@@ -3,7 +3,7 @@ html,body {
 }
 body {
   background: #420909;
-  background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 75%);
+  background: radial-gradient(circle,  #420909  0%, #000000 50%);
   background-size: 100%;
 }
 p {
@@ -12,13 +12,14 @@ p {
 }
 #clock {
   font-family: monospace;
-  color: #ffffff;
+  color: aliceblue;
   text-align: center;
+  margin: auto;
+  color: aliceblue;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  color: #daf6ff;
   .time {
       letter-spacing: 0.05rem;
       font-size: 6rem;
@@ -30,7 +31,7 @@ p {
   }
   .text {
       letter-spacing: 0.1rem;
-      font-size: .08rem;
+      font-size: 1rem;
       padding: 1.3rem 0 0;
   }
 }
